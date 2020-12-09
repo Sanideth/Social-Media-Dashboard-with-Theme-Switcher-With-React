@@ -3,7 +3,7 @@ import React from 'react';
 
 function HeadingSecondary() {
     return (
-        <h2 className="heading-secondary">Overview - Today</h2>
+        <h2 className="heading-secondary u-mb-sm">Overview - Today</h2>
     )
 }
 

@@ -5,7 +5,7 @@ import ThemeSwitcherButton from './ThemeSwitcherButton'
 
 function Header() {
     return (
-        <header className="header">
+        <header className="header u-mb-m">
             <div className="header__text-container">
                 <HeadingPrimary/>
                 <p className="header__text">Total Followers: 23,004</p>

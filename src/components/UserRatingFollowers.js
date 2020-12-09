@@ -6,7 +6,7 @@ function UserRatingFollowers(props) {
     return(
         <div className="main__user-rating-followers">
             <img src={props.icon} alt="" className="main__icon-arrow"/>
-            <p className="user__rating-per-day">{props.perDay} Today</p>
+            <p className={`main__user-rating-per-day ${props.colorClass}`}>{props.perDay} Today</p>
         </div>
     )
 }
