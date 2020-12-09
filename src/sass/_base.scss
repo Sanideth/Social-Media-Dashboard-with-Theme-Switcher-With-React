@@ -1,3 +1,38 @@
+:root {
+  --color-primary-green: hsl(163, 72%, 41%);
+  --color-primary-red: hsl(356, 69%, 56%);
+  --color-primary-facebook: hsl(208, 92%, 53%);
+  --color-primary-twitter: hsl(203, 89%, 53%);
+  --color-primary-instagram-gradinet: (
+    to right,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  --color-primary-youtube: hsl(348, 97%, 39%);
+  --color-primary-button-gradient: (
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+  //Dark Theme Colors
+  --color-primary-grey: hsl(230, 22%, 74%);
+  --color-bg-very-dark-blue-top: hsl(230, 17%, 14%);
+  --color-bg-very-dark-blue-main: hsl(232, 19%, 15%);
+  --color-bg-desaturated-blue: hsl(228, 28%, 20%);
+
+  --color-text-desaturated-blue: hsl(228, 34%, 66%);
+
+  // Light Theme Colors
+  --color-bg-pale-blue-top: hsl(225, 100%, 98%);
+  --color-bg-grayish-blue-card: hsl(227, 47%, 96%);
+  --color-text-grayish-blue: hsl(228, 12%, 44%);
+  --color-text-very-dark-blue: hsl(230, 17%, 14%);
+}
+
+$bp-large: 68.75em; //bp at 1100px
+$bp-medium: 53em; //bp at 848px
+$bp-small: 37.5em; //bp at 600px
+
 *,
 *::before,
 *::after {
@@ -12,4 +47,14 @@ html {
 
 body {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-bg-very-dark-blue-top) 25%,
+    var(--color-bg-very-dark-blue-main) 25%
+  );
+  color: var(--color-text-desaturated-blue);
 }
