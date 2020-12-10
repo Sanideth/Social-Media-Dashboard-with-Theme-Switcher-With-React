@@ -1,3 +1,6 @@
+//Utility styles
+
+//Medium Padding
 .u-p-m {
   padding: 3em;
 
@@ -5,20 +8,24 @@
     padding: 3em 1em;
   }
 }
+//Small margin-bottom
 .u-mb-sm {
   margin-bottom: 2.5rem;
 }
+
+//Medium margin-bottom
 .u-mb-m {
   margin-bottom: 5rem;
   @media only screen and (max-width: $bp-small) {
     margin-bottom: 3rem;
   }
 }
-
+//Red color for decreased text
 .red {
   color: var(--color-primary-red);
 }
 
+//Button active styles
 .btn-circle-active {
   transform: translateX(150%);
   background-color: #fff;
@@ -38,7 +45,7 @@
     background-color: #fff;
   }
 }
-
+// Body active styles
 .body-active {
   background-image: linear-gradient(
     to bottom,
@@ -47,11 +54,17 @@
   );
   color: var(--color-text-grayish-blue);
 }
-
+// Text active styles
 .text-color-darkest {
   color: var(--color-text-very-dark-blue);
 }
-
+// Grid boxes active styles
 .bg-color-lighten {
   background-color: var(--color-bg-grayish-blue-card);
+}
+
+.box-active {
+  &:hover {
+    background-color: hsl(230, 22%, 86%);
+  }
 }
