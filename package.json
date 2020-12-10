@@ -12,6 +12,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,8 +40,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.1.0",
+    "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0",
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.0"
-  }
+  },
+  "homepage": "http://Sanideth.github.io/Social-Media-Dashboard-with-Theme-Switcher-with-React"
 }
