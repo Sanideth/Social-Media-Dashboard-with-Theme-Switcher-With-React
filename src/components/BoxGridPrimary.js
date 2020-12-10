@@ -10,8 +10,6 @@ function BoxGridPrimary(props) {
             <User logo={props.logo} user={props.user}/>
             <UserFollowers text={props.text} />
             <UserRatingFollowers icon={props.icon} perDay={props.perDay} colorClass={props.colorClass}/>
-            
-            
         </div>
     )
 }
