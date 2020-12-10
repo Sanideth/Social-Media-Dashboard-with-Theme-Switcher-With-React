@@ -257,3 +257,6 @@ body {
 
 .bg-color-lighten {
   background-color: var(--color-bg-grayish-blue-card); }
+
+.box-active:hover {
+  background-color: #d3d6e3; }
