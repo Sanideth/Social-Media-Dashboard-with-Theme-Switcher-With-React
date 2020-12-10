@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/css/main.70b495a4.chunk.css",
+    "main.js": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/main.a9bd89c6.chunk.js",
+    "main.js.map": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/main.a9bd89c6.chunk.js.map",
+    "runtime-main.js": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/runtime-main.19e56d87.js",
+    "runtime-main.js.map": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/runtime-main.19e56d87.js.map",
+    "static/js/2.b9c24ca2.chunk.js": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/2.b9c24ca2.chunk.js",
+    "static/js/2.b9c24ca2.chunk.js.map": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/2.b9c24ca2.chunk.js.map",
+    "static/js/3.e7d6a452.chunk.js": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/3.e7d6a452.chunk.js",
+    "static/js/3.e7d6a452.chunk.js.map": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/3.e7d6a452.chunk.js.map",
+    "index.html": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/index.html",
+    "static/css/main.70b495a4.chunk.css.map": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/css/main.70b495a4.chunk.css.map",
+    "static/js/2.b9c24ca2.chunk.js.LICENSE.txt": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/js/2.b9c24ca2.chunk.js.LICENSE.txt",
+    "static/media/icon-down.0c77426d.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-down.0c77426d.svg",
+    "static/media/icon-facebook.8deee3e3.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-facebook.8deee3e3.svg",
+    "static/media/icon-instagram.568b5795.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-instagram.568b5795.svg",
+    "static/media/icon-twitter.a0c5f64d.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-twitter.a0c5f64d.svg",
+    "static/media/icon-up.359200b2.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-up.359200b2.svg",
+    "static/media/icon-youtube.cad14335.svg": "/Social-Media-Dashboard-with-Theme-Switcher-with-React/static/media/icon-youtube.cad14335.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19e56d87.js",
+    "static/js/2.b9c24ca2.chunk.js",
+    "static/css/main.70b495a4.chunk.css",
+    "static/js/main.a9bd89c6.chunk.js"
+  ]
+}
